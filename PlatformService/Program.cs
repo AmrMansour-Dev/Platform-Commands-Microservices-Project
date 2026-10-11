@@ -13,6 +13,7 @@ namespace PlatformService
             // Add services to the container.
 
             builder.Services.AddDbContext<AppDbcontext>(option => option.UseInMemoryDatabase("InMem"));
+            builder.Services.AddScoped<IPlatformRepository, PlatformRepository>();
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
