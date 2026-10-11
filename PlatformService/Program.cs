@@ -35,7 +35,11 @@ namespace PlatformService
 
             app.MapControllers();
 
+            PrepDB.PrepPopultion(app);
+
             app.Run();
+
+
         }
     }
 }
