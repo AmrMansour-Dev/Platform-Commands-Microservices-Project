@@ -15,6 +15,7 @@ namespace PlatformService
             builder.Services.AddDbContext<AppDbcontext>(option => option.UseInMemoryDatabase("InMem"));
             builder.Services.AddScoped<IPlatformRepository, PlatformRepository>();
             builder.Services.AddControllers();
+            builder.Services.AddAutoMapper(cfg => { },AppDomain.CurrentDomain.GetAssemblies());
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
