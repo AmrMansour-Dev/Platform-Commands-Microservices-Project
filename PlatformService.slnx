@@ -1,3 +1,7 @@
 <Solution>
+  <Folder Name="/K8S/">
+    <File Path="K8S/platforms-depl.yaml" />
+    <File Path="K8S/platforms-np-srv.yaml" />
+  </Folder>
   <Project Path="PlatformService/PlatformService.csproj" />
 </Solution>
