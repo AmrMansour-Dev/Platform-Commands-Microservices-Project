@@ -3,6 +3,6 @@
     <File Path="K8S/platforms-depl.yaml" />
     <File Path="K8S/platforms-np-srv.yaml" />
   </Folder>
-  <Project Path="CommandService/CommandService.csproj" Id="c0003e93-eb20-465e-980f-7bf471bbf3f5" />
+  <Project Path="CommandsService/CommandsService.csproj" Id="f1e05ea9-ca9d-457e-b0c2-e2fde8aeda7d" />
   <Project Path="PlatformService/PlatformService.csproj" />
 </Solution>
