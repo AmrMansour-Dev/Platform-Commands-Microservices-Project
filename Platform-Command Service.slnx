@@ -2,6 +2,8 @@
   <Folder Name="/K8S/">
     <File Path="K8S/commands-depl.yaml" />
     <File Path="K8S/ingress-srv.yaml" />
+    <File Path="K8S/local-pvc.yaml" />
+    <File Path="K8S/mssql-plat-depl.yaml" />
     <File Path="K8S/platforms-depl.yaml" />
     <File Path="K8S/platforms-np-srv.yaml" />
   </Folder>
